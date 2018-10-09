@@ -2,6 +2,9 @@
 	"$schema": "../../node_modules/ng-packagr/ng-package.schema.json",
 	"dest": "../../dist/ng-extras",
 	"lib": {
-		"entryFile": "src/public_api.ts"
+		"flatModuleFile": "ng-extras",
+		"entryFile": "src/public_api.ts",
+		"umdId": "xt",
+		"amdId": "xt"
 	}
 }

@@ -1,10 +1,15 @@
 import { NgModule } from '@angular/core';
-import { NgExtrasComponent } from './ng-extras.component';
+
+import { XtForDirective } from './directives';
+
+const declarations = [
+   XtForDirective
+];
 
 @NgModule({
    imports      : [],
-   declarations : [NgExtrasComponent],
-   exports      : [NgExtrasComponent]
+   declarations : declarations,
+   exports      : declarations
 })
 export class NgExtrasModule {
 }

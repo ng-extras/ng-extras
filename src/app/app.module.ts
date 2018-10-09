@@ -1,14 +1,18 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+import { NgExtrasModule } from 'projects/ng-extras/src/public_api';
 import { AppComponent } from './app.component';
+import { XtForComponent } from './xt-for/xt-for.component';
 
 @NgModule({
    declarations : [
-      AppComponent
+      AppComponent,
+      XtForComponent
    ],
    imports      : [
-      BrowserModule
+      BrowserModule,
+      NgExtrasModule
    ],
    providers    : [],
    bootstrap    : [AppComponent]

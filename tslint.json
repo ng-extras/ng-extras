@@ -10,7 +10,6 @@
 			true,
 			"check-space"
 		],
-		"curly": true,
 		"deprecation": {
 			"severity": "warn"
 		},
@@ -59,12 +58,7 @@
 		"no-empty": false,
 		"no-empty-interface": true,
 		"no-eval": true,
-		"no-inferrable-types": [
-			true,
-			"ignore-params"
-		],
 		"no-misused-new": true,
-		"no-non-null-assertion": true,
 		"no-redundant-jsdoc": true,
 		"no-shadowed-variable": true,
 		"no-string-literal": false,
@@ -99,10 +93,10 @@
 		"typedef-whitespace": [
 			true,
 			{
-				"call-signature": "nospace",
-				"index-signature": "nospace",
-				"parameter": "nospace",
-				"property-declaration": "nospace",
+				"call-signature": "onespace",
+				"index-signature": "onespace",
+				"parameter": "onespace",
+				"property-declaration": "onespace",
 				"variable-declaration": "onespace"
 			}
 		],
